@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Random</title>
+</head>
+
+<body>
+  <div class="box">
+    <img src="assets/dado-img.png" alt="Figura de um dado">
+    <h1>SORTEADOR</h1>
+  </div>
+  <h2>Sortear um Número</h2>
+  <main>
+
+    <input type="number" placeholder="entre" id="input-min">
+    <input type="number" placeholder="e" id="input-max">
+  </main>
+
+  <button onclick="generateNumber()">Sortear</button>
+  <section id="result">
+    <h3>O NÚMERO ESCOLHIDO É:</h3>
+    <span id="number"></span>
+  </section>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
